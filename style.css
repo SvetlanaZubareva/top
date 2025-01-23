@@ -602,21 +602,21 @@
         justify-content: center;
     }
     .header-list-item:nth-child(2) .header-list-item {
-        border: 1px solid; /* Устанавливаем рамку */
-        border-image-source: linear-gradient(90deg, #EA32D9 0%, #004BED 100%); /* Источник градиента */
-        border-image-slice: 1; /* Используем весь градиент */
-        padding: 10px 15px; /* Отступы внутри элемента */
-        border-radius: 8px; /* Скругляем углы рамки (по желанию) */
-        transition: transform 0.3s, background-color 0.3s; /* Анимация при наведении */
+        border: 1px solid; 
+        border-image-source: linear-gradient(90deg, #EA32D9 0%, #004BED 100%); 
+        border-image-slice: 1; 
+        padding: 10px 15px; 
+        border-radius: 8px; 
+        transition: transform 0.3s, background-color 0.3s; 
       }
       
       .header-list-item-ul li {
-        border: 1px solid; /* Устанавливаем рамку */
+        border: 1px solid; 
         border-image-source: linear-gradient(90deg, #EA32D9 0%, #004BED 100%);
-        border-image-slice: 1; /* Используем весь градиент */
-        padding: 10px 15px; /* Отступы внутри элемента */
-        border-radius: 8px; /* Скругляем углы рамки */
-        transition: background-color 0.3s; /* Анимация фона при наведении */
+        border-image-slice: 1;
+        padding: 10px 15px; 
+        border-radius: 8px; 
+        transition: background-color 0.3s; 
       }
       
       .header-list-item-ul{
