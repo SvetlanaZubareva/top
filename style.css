@@ -1,0 +1,643 @@
+@import url(https://db.onlinewebfonts.com/c/f908058d306298dffa75cbd1883b27b4?family=Gerhaus);
+@font-face {
+    font-family: "Roboto";
+    src: url("./font/Roboto.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  /* @font-face {
+    font-family: "Gerhaus";
+    src: url("./font/Gerhaus.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  } */
+  @font-face {
+    font-family: "Gerhaus";
+    src: url("https://db.onlinewebfonts.com/t/f908058d306298dffa75cbd1883b27b4.eot");
+    src: url("https://db.onlinewebfonts.com/t/f908058d306298dffa75cbd1883b27b4.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f908058d306298dffa75cbd1883b27b4.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f908058d306298dffa75cbd1883b27b4.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/f908058d306298dffa75cbd1883b27b4.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f908058d306298dffa75cbd1883b27b4.svg#Gerhaus")format("svg");
+}
+  html {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    width: 80%;
+    min-height: 100%;
+    background-color:#0D0E11;
+    min-width: 320px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: "Gerhaus", "Roboto", sans-serif;
+    color: #fff;
+    margin: 0 auto;
+  }
+  button,
+  a{
+   cursor: pointer;
+   text-decoration: none;
+  }
+  p,
+  h2,
+  h1,
+  h3{
+    margin: 0;
+  }
+  li{
+    list-style: none;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .header-list-item a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #fff;
+  }
+  .main-header{
+    font-family: "Gerhaus", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-top: 150px;
+  }
+  .main-header_list-item p,
+  .main-paragraph{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+  }
+  .section-list-item-ul li{
+    font-family: "Gerhaus", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  .header_list{
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header_list span{
+    text-transform: uppercase;
+  }
+  .header-list-item{
+    position: relative;
+  }
+  .header-list-item_list{
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-list-item-ul{
+    position: absolute;
+    width: 320px;
+    left: -100%;
+    z-index: 10;
+    background-color: #0D0E11;
+    ;
+  }
+  .header-list-item-ul li{
+    padding: 13px 0 13px;
+    border-bottom: 1px solid transparent; 
+    border-image: linear-gradient(90deg, #EA32D9 0%, #004BED 100%) 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-list-item-ul li:hover{
+    background: linear-gradient(90deg, #EA32D9 0%, #004BED 100%);
+
+  }
+  .link--flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+ .link--flex svg{
+    margin: 0 auto;
+ }
+ .link--flex:hover .svg--rotate{
+    transform: rotate(180deg);
+ }
+ .header-list-item-ul{
+    display: none;
+ }
+ .header-list-item:nth-child(1):hover .header-list-item-ul{
+    display: block;
+ }
+ .header-list-item:nth-child(3):hover .header-list-item-ul{
+    display: block;
+ }
+ .header-list-item:nth-child(5):hover .header-list-item-ul{
+    display: block;
+ }
+ .header-list-item-ul:hover .header-list-item-ul{
+    display: block;
+ }
+ .header-list-item:nth-child(1):hover .svg--rotate{
+    transform: rotate(180deg);
+ }
+ .header-list-item:nth-child(3):hover .svg--rotate{
+    transform: rotate(180deg);
+ }
+ .header-list-item:nth-child(5):hover .svg--rotate{
+    transform: rotate(180deg);
+ }
+ #li--border-none{
+    border-bottom: none;
+ }
+.header-list-item-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header-list-item-contact a{
+    display: flex;
+    justify-content: end;
+}
+.header-list-item:nth-child(2)  .header-list-item_list{
+    gap: 50px;
+    margin-top: 20px;
+}
+.header-list-item-ul--flex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.main-header_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.main-header_list-item section{
+    background: #00000080;
+    backdrop-filter: blur(28.200000762939453px);
+    padding: 20px;
+    box-sizing: border-box;
+    padding-top: 0;
+    height: 100%;
+}
+.main-header_list-item{
+    position: relative;
+}
+.main-header_list-item div{
+    background: linear-gradient(90deg, #EA32D9 0%, #004BED 100%);
+    backdrop-filter: blur(28.200000762939453px);
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+}
+.main-header_list-item:nth-child(1):hover div{
+    top: 42px;
+    left: -10px;
+    cursor: pointer;
+}
+.main-header_list-item:nth-child(2):hover div{
+    top: 42px;
+    left: -10px;
+    cursor: pointer;
+}
+.main-header_list-item:nth-child(3):hover div{
+    top: 42px;
+    left: -10px;
+    cursor: pointer;
+}
+.main-header_list-item:nth-child(4):hover div{
+    top: 42px;
+    left: -10px;
+    cursor: pointer;
+}
+.main-header_list-item:nth-child(5):hover div{
+    top: 42px;
+    left: -10px;
+    cursor: pointer;
+}
+.main-header_list-item:nth-child(6):hover div{
+    top: 42px;
+    left: -10px;
+    cursor: pointer;
+}
+.main-header_list-item:nth-child(7):hover div{
+    top: 42px;
+    left: -10px;
+    cursor: pointer;
+}
+.main-header_list-item:nth-child(8):hover div{
+    top: 42px;
+    left: -10px;
+    cursor: pointer;
+}
+.main-paragraph--center{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main-header_list-item svg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.main-header_list-item:hover svg{
+    width: 40px;
+    height: 40px;
+}
+.section-list{
+    display: flex;
+    justify-content: space-around;
+}
+.section-list-item{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.section-list-item-ul--radius{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(42px);
+    border-radius: 200px;
+    width: 385px;
+    height: 385px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+.section-list-item-ul--radius li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+}
+.section-list-item-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+.section--hover{
+    position: relative;
+}
+.section--hover div{
+    background: linear-gradient(90deg, #EA32D9 0%, #004BED 100%);
+    width: 218px;
+    height: 218px;
+    border-radius: 200px;
+    position: absolute;
+    right: -20%;
+    z-index: 1;
+    top: 20%;
+}
+.section-list-item:hover div{
+    right: 20%;
+}
+.section-list-item:hover .section-list-item-ul li{
+    background: linear-gradient(90deg, #EA32D9 0%, #004BED 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+}
+.swiper{
+    width: 90%;
+}
+.section-slider{
+    padding-bottom: 172px;
+}
+.swiper-wrapper{
+    padding-bottom: 100px;
+}
+.swiper-button-next svg{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+.swiper-button-prev svg{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: var(--swiper-navigation-color,var(--swiper-theme-color));
+}
+:root {
+    --swiper-theme-color: #0000;
+}
+.swiper-button-next{
+    top: 80%;
+    right: 15px;
+}
+.swiper-button-prev{
+    top: 80%;
+    left: 90%;
+}
+.img-m{
+    display: none;
+}
+@media(min-width: 1200px) and (max-width: 1600px) {
+    body{
+        width: 90%;
+    }
+    .header-list-item:nth-child(2) .header-list-item_list{
+        gap: 20px;
+    }
+    .header-list-item-ul--flex {
+        gap: 15px;
+    }
+    .section-list-item-ul--radius{
+        width: 300px;
+        height: 300px;
+    }
+    .section-list-item-ul--radius li{
+        font-size: 20px;
+    }
+}
+@media(min-width: 768px) and (max-width: 1200px) {
+    .svg-logo{
+        width: 50px;
+        height: 50px;
+    }
+    .header-list-item:nth-child(2) .header-list-item_list{
+        gap: 15px;
+    }
+    .link--flex{
+        gap: 0;
+    }
+    .header-list-item a{
+        font-size: 9px;
+    }
+    .svg--rotate{
+        width: 10px;
+        height: 10px;
+    }
+    .main-header_list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-list{
+        flex-wrap: wrap;
+    }
+    .main-header_list-item section{
+        height: 100px;
+    }
+    .main-header_list-item{
+        width: 100%;
+    }
+    .header-list-item-ul--flex{
+        gap: 10px;
+    }
+    .header-list-item-ul--flex .header-list-item:nth-child(1){
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .header-list-item-ul--flex .header-list-item:nth-child(1) svg{
+        width: 15px;
+        height: 15px;
+    }
+    .header-list-item-ul--flex .header-list-item:nth-child(2){
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .header-list-item-ul--flex .header-list-item:nth-child(2) svg{
+        width: 15px;
+        height: 15px;
+    }
+    .header-list-item-contact{
+        gap: 0;
+    }
+    .header-list-item:nth-child(2) .header-list-item_list{
+        margin-top: 0;
+    }
+    .header-list-item{
+        display: flex;
+    }
+    .main-header{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .header-list-item-ul{
+        width: 150px;
+        top: 40px;
+        left: -90%;
+    }
+    .header-list-item-ul li {
+        padding: 5px 0 5px;
+    }
+}
+@media(min-width: 0) and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+    .main-header{
+        font-size: 30px;
+        margin-top: 50px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .main-header_list-item section {
+        height: 91px;
+    }
+    .main-header_list-item div{
+        height: 91px;
+    }
+    .main-header_list-item p, .main-paragraph{
+        font-size: 14px;
+        line-height: 16px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .main-header_list-item section {
+        padding: 10px 20px 10px;
+        display: flex;
+        align-items: center;
+    }
+    .main-header_list{
+        gap: 10px;
+    }
+    .main-header_list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-header_list-item{
+        width: 100%;
+    }
+    .section-list-item-ul li{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .section-list-item-ul--radius li {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .section-list-item-ul--radius{
+        gap: 17px;
+        width: 176px;
+        height: 176px;
+    }
+    .section-list-item{
+        gap: 20px;
+    }
+    .section--hover div{
+        width: 119px;
+        height: 119px;
+    }
+    .section-list{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+    }
+    .section-list-item{
+        justify-content: center;
+    }
+    .swiper-slide{
+        flex-direction: column;
+        gap: 30px;
+    }
+    br{
+        display: none;
+    }
+    .main-paragraph--map{
+        line-height: 18px;
+        text-align: center;
+    }
+    .swiper-button-prev {
+        top: 80%;
+        left: 5%;
+    }
+    .svg-logo{
+        width: 87px;
+        height: 34px;
+    }
+    .img-d{
+        display: none;
+    }
+    .img-m{
+        display: block;
+    }
+    .header-list-item:nth-child(2){
+        position: absolute;
+        display: grid;
+        display: flex;
+        top: 80px;
+        z-index: 10;
+        background: #0D0E11;
+        width: 100%;
+        width: 100%;
+        z-index: 9999;
+        height: 100%;
+    }
+    .header-list-item_list{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .header-list-item:nth-child(2) .header-list-item_list {
+        gap: 0;
+        background: #0D0E11;
+        width: 100%;
+        width: 100%;
+        z-index: 9999;
+        height: 100%;
+    }
+    .header-list-item:nth-child(2) li{
+        height: 44px;
+    }
+    .link--flex{
+        flex-direction: row;
+    }
+    .svg--rotate{
+        margin: 0;
+    }
+    .header-list-item a{
+        height: 100%;
+        align-items: center;
+        display: flex;
+    }
+    .link--flex svg{
+        margin: 0;
+    }
+    .header-list-item-ul--flex .header-list-item--mobile{
+        position: static;
+    }
+    .header-list-item_list .header-list-item--mobile{
+        position: static;
+    }
+    .link--flex{
+        justify-content: center;
+    }
+    .header-list-item_list     .header-list-item:nth-child(2){
+        justify-content: center;
+    }
+    .header-list-item_list     .header-list-item:nth-child(4){
+        display: flex;
+        justify-content: center;
+    }
+    .header-list-item_list     .header-list-item:nth-child(6){
+        display: flex;
+        justify-content: center;
+    }
+    .header-list-item:nth-child(2) .header-list-item {
+        border: 1px solid; /* Устанавливаем рамку */
+        border-image-source: linear-gradient(90deg, #EA32D9 0%, #004BED 100%); /* Источник градиента */
+        border-image-slice: 1; /* Используем весь градиент */
+        padding: 10px 15px; /* Отступы внутри элемента */
+        border-radius: 8px; /* Скругляем углы рамки (по желанию) */
+        transition: transform 0.3s, background-color 0.3s; /* Анимация при наведении */
+      }
+      
+      .header-list-item-ul li {
+        border: 1px solid; /* Устанавливаем рамку */
+        border-image-source: linear-gradient(90deg, #EA32D9 0%, #004BED 100%);
+        border-image-slice: 1; /* Используем весь градиент */
+        padding: 10px 15px; /* Отступы внутри элемента */
+        border-radius: 8px; /* Скругляем углы рамки */
+        transition: background-color 0.3s; /* Анимация фона при наведении */
+      }
+      
+      .header-list-item-ul{
+        position: static;
+        width: 100%;
+      }
+       
+      
+
+
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
